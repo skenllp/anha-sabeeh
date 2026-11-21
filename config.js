@@ -4,7 +4,7 @@ window.INVITE = {
   groom: "Muhammed",
   brideFull: "Anha Ashraf",
   groomFull: "Muhammed Sabeeh",
-  monogram: "AM",
+  monogram: "AS",
 
   /* Format: "YYYY-MM-DDTHH:MM:00+05:30". While empty, the countdown and calendar stay hidden. */
   dateTime: "2026-12-19T12:30:00+05:30",
