@@ -71,10 +71,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,#c
 .hero.show .in{opacity:1;transform:none}
 .hero .bless{font:400 24px/1.4 "Amiri",serif;color:var(--gold-text);direction:rtl;margin-bottom:8px}
 .hero .cap{letter-spacing:.2em;text-wrap:balance}
-.mono{position:relative;height:78px;margin:22px auto 6px;width:110px}
-.mono span{position:absolute;top:0;font:400 84px/1 "Alex Brush",cursive;color:var(--gold);line-height:1}
-.mono span:first-child{left:10px}
-.mono span:last-child{right:10px;top:6px;color:var(--gold2);opacity:.92}
+.mono{font:400 66px/1.2 "Alex Brush",cursive;color:var(--gold-text);margin:14px auto 8px;white-space:nowrap;-webkit-text-stroke:.4px currentColor}
+.mono small{font-size:.55em;color:var(--gold);margin:0 2px;-webkit-text-stroke:0}
 .names{font:700 min(44px,10vw)/1.25 "Dancing Script",cursive;color:var(--gold-text);white-space:nowrap}
 .names span,.names em{display:block}
 .names .cp{font-size:1.25em;line-height:0}
@@ -137,7 +135,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,#c
 .fam .home{margin-top:8px;font-size:16px}
 .fam .gr{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);color:var(--soft);font-size:15px;font-style:italic;line-height:1.45}
 .joy{margin-top:22px}
-.joy .jn{font:400 32px/1.2 var(--script);color:var(--gold-text);margin-top:4px}
+.joy .jn{font:600 34px/1.25 "Dancing Script",cursive;color:var(--gold-text);margin-top:4px}
 /* wishes */
 .wishes{display:flex;flex-direction:column;gap:12px;max-width:380px;margin:22px auto 0;text-align:left}
 .wish{background:var(--card);border-radius:12px;padding:14px 16px}
@@ -248,7 +246,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,#c
 </section>
 
 <footer class="end pad">
-  <div class="mono" aria-hidden="true"><span data-t="brideI"></span><span data-t="groomI"></span></div>
+  <div class="mono" aria-hidden="true">A<small>&amp;</small>S</div>
   <div class="names"><span data-t="brideFull"></span><em class="amp">&amp;</em><span data-t="groomFull"></span></div>
   <div class="dia"><i></i><b></b><i></i></div>
   <div class="when"><div class="wd" data-t="weekday"></div><div class="wd" style="font-size:24px;letter-spacing:.08em" data-t="dateLong"></div><div class="wt" style="font-size:24px" data-t="timeText"></div><div class="wv" data-t="venueShort"></div></div>
